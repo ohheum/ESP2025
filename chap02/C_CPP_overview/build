@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc helloworld.c -o helloworldc
+g++ helloworld.cpp -o helloworldcpp
