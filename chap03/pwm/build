@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "This build requires that WiringPi is installed on the RPi"
+g++ fadeLED.cpp -o fadeLED -lwiringPi
+g++ servo.cpp -o servo -lwiringPi

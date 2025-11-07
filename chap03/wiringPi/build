@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "This build requires that WiringPi is installed on the RPi"
+g++ buttonLED.cpp -o buttonLED -lwiringPi
+g++ buttonLEDdebounce.cpp -o buttonLEDdb -lwiringPi
+g++ fasttoggle.cpp -o fasttoggle -lwiringPi
